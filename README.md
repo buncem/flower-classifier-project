@@ -9,7 +9,7 @@ Installation
 ### Environment requirements
 
 * Create a conda environment with python=3.6 and the following packages.
-    * conda create --name myenv python=3.6 numpy cython jupyter nb_conda_kernels scipy
+    * conda create --name myenv python=3.6 numpy cython jupyter nb_conda_kernels scipy matplotlib
     * source activate myenv
 * Go to [PyTorch website](https://pytorch.org/) and follow directions to install PyTorch for your system.
 

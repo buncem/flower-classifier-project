@@ -1,7 +1,7 @@
 # Flower Classifier App
 
 
-Image classifier for 102 species of flowers
+Command line image classifier for 102 species of flowers. Based on Udacity's [Flower Classifier Project](https://github.com/udacity/aipnd-project.git).
 
 ## Installation
 --------------------

@@ -19,10 +19,22 @@ Installation
     * Checkout this [Tutorial](https://www.atlassian.com/git/tutorials/git-lfs) more details of how Git LFS works and how to install it.
 * Clone repository
     * git clone https://github.com/buncem/flower-classifier-project.git
-    
+
+### Two ways to use the app
+
+* Use checkpoint.pth included in the repository to predict flower types.
+    * Doesn't require downloading the Dataset.
+    * Doesn't require using a GPU to train.
+    * Test photos included in repository under test-photos directory.
+
+* Train classifier yourself.
+    * GPU is highly recommended to train in a reasonable time.
+    * Downloading training data is required, see "Download data" section
+
+
 
 ### Download data
 
-* Clone this repo to your computer.
-* Make data folder.
-*
+* Make data folder and cd into it
+* Download data from [here](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html)
+    * Under downloads download "Dataset images" and "The image labels"
